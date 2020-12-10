@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Gabriela Goncalves" />
+	<meta name="description" content="Engenharia de Telecomunicações" />
+	<meta name="keywords" content="engenharia, telecomunicações, trabalho">
+	<meta name="robots" content="index,follow">
+	<title>	Engenharia de Telecomunicações 	</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="shortcut icon" href="favicon.ico">
+
+
+<body id="topo">
+	<header> 
+		
+			<div id="menu">
+				
+				<a href=""> </a>
+				<a href="#">Home </a>
+				<a href="quemsomos.html"> Quem Somos </a>
+				<a href="atuacoes.html"> Atuações</a>
+				<a href="#localizacao">  Localização </a>
+				<a href="faleconosco.html"> Contato </a>
+			
+		</div>
+
+		<div id="banner">
+			<img src="imagens/banner.png">
+		</div>
+
+		<a href=" #rodape"> Ir para o Rodapé </a>
+	<section id="contato">
+		<div class="titulo"> FALE CONOSCO </div>
+		<form onsubmit="Enviar_Form()"   method="post" action="">
+			<div class="campo">
+				<label for="nome"> Nome </label> 
+				<input type="text" name="nome" id="nome" style="width: 400px">
+
+				<label for="email"> E-mail </label> 
+				<input type="text" name="email" id="email" style="width: 400px">
+				
+				<label for="telefone"> Telefone </label> 
+				<input type="text" name="telefone" id="telefone" style="width: 200px">
+			</div>
+
+			<div class="campo">
+                <label for="cidade">Cidade</label>
+                <input type="text" id="cidade" name="cidade" style="width: 200px" >
+
+            <div class="campo">
+                <label for="estado">Estado</label>
+                <select name="estado" id="estado">
+                    <option value="">--</option>
+                    <option value="MG"> MG </option>
+                    <option value="RJ"> RJ </option>
+                    <option value="SP"> SP </option>
+ 					<option value="ES"> ES </option>
+                    <option value="Outro"> Outro </option>
+
+                </select>
+            </div>
+			<div class="campo">
+            <label>Sexo</label>
+            <label> <input type="radio" name="sexo" value="feminino"> Feminino
+            </label>
+            <label> <input type="radio" name="sexo" value="masculino"> Masculino
+            </label>
+            
+        	</div>
+
+        	<div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea rows="6" style="width: 300px" id="mensagem" name="mensagem"></textarea>
+        	</div>
+
+
+			<div class="campo">
+					<label>Como podemos ajudar?
+							<select name="categoria">
+								<option>Dúvidas</option>
+								<option>Reclamações</option>
+								<option>Sugestões</option>
+								<option>Outro</option>
+							</select>
+						</label>
+					</div>
+				<label>
+				<input type="submit" value="Enviar" id="botao" class="campo" name=""> 
+				</label>
+		</form>
+
+<script type="text/javascript">
+function Enviar_Form()
+{
+alert("Formulário enviado com sucesso!");
+}
+</script>
+</body>
+
+
+
+	</section>
+	<footer id = "rodape" >
+			<a href="#topo"> Voltar ao topo  </a> <br>
+			
+		<rodape> 
+			<div id="copyright">Copyright © Gabriela Goncalves </div>
+		</rodape>			
+		
+   	</header>
+</body>
+</html>
